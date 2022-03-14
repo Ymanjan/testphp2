@@ -1,0 +1,47 @@
+@media screen and (max-width: 800px){
+    .cards{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 750px){
+    .container{        
+        padding: 0;                   
+    }
+    .header,
+    .main-info,
+    .block{
+        padding: 0 20px;
+    }
+    .main-info{
+        padding: 0;
+    }
+    .logo img{
+        width: 90%;
+    }
+    .main-info{
+        margin: 0 auto;
+        text-align: center;
+        padding: 10% 0;
+    }
+    .card a{
+        font-size: 13px;
+    }
+    .menu-card{
+        display: block;
+    }
+    .cards{
+        width: 100%;
+    }
+    .muzic_name{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 470px){
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .main-info h1 p{
+        font-size: 18px;
+    }
+}
